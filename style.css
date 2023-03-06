@@ -103,3 +103,26 @@ body {
     align-self: flex-start;
     border-radius: 10px 10px 3px 10px;
 }
+
+#knowledge-body {
+    visibility: hidden;
+    overflow-y: auto;
+    margin: 5%;
+    max-height: 90%
+
+}
+
+.search-board {
+    padding-top: 4px;
+    border-top: 1px solid #ccc;
+}
+
+.keywords {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.keyword {
+    text-decoration: underline;
+    color: rgb(199, 199, 24)
+}
